@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Home</title>
+        <style type="text/css">   
+        
+        .main_header { 
+            font-family: Arial, Helvetica, sans-serif;
+            background:rgb(232, 93, 37);
+            color: #fff;
+            text-align: center;
+            width: 100%;
+            height: 50px;
+            margin: 10px;
+        }
+        .grid_setup {
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: 100px 100px ;
+            grid-template-rows: 100px;
+            padding: 20px;
+        }
+        
+        .services {
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            grid-column-gap: 1em;
+            grid-row-gap: 1em;
+            margin-left: 100px;
+            color: #ddd;
+            margin-top: 50px;
+        }
+        .red_train {
+            margin-left: 420px;
+        }
+        
+        @media (max-width: 800px) {
+            body {
+            background:lightcoral;
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <header class="main_header">
+            <h1>Services</h1>
+        </header>
+
+        <div class="services">
+            <a href="https://www.irctc.co.in/nget/train-search" >
+                <img src="./resource/gallery.png" width="200px" height="200px" >
+            </a>
+            <a href="https://www.irctc.co.in/nget/train-search" >
+                <img src="./resource/online_book.jpeg" width="200px" height="200px" >
+            </a>
+            <a href="https://www.irctc.co.in/nget/train-search" >
+                <img src="./resource/enquiry.jpg" width="200px" height="200px" >
+            </a>
+        </div>
+
+    <a href="https://www.irctc.co.in/nget/train-search" >
+        <img src="./resource/train.png" class="red_train">
+    </a>
+    </body>
+</html>

@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>Home</title>
+        <style>
+            body {
+                background: #333;
+             }
+
+            .main_header {
+                font-family: Arial, Helvetica, sans-serif;
+                background:rgb(232, 93, 37);
+                color: #fff;
+                text-align: center;
+                width: 100%
+                height: 50px;
+                margin: 10px;
+            }
+
+            .grid {
+                display: grid;
+                grid-gap: 20px;
+                grid-template-columns: 100px 100px ;
+                grid-template-rows: 100px;
+                padding: 20px;
+            }
+
+            #type_img div{
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                padding: 5px;
+                width: 255px;
+                height: 300px;
+                margin-left: 500px;
+                margin: 20px;
+                margin-top: 50px;
+            }
+            .types {
+                display: grid;
+                grid-template-columns: 33% 33% 33%;
+                grid-column-gap: 1em;
+                grid-row-gap: 1em;
+                color: #ddd;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="main_header"><h1>History</h1>
+            <a href="second.html" >
+            <button>next</button></a>
+        </header>
+
+        <div class="types" id="type_img">
+            <div>
+                <img src="./resource/locomotiv_e.jpg" height="300px"> 
+                <p>
+                    An electric locomotive is a locomotive powered by electricity 
+                    from overhead lines, a third rail or on-board energy storage 
+                    such as a battery or a supercapacitor.
+                </p>
+                <p>
+                    Electric locomotives with on-board fueled prime movers, such 
+                    as diesel engines or gas turbines, are classed as diesel-electric 
+                    or gas turbine-electric and not as electric locomotives, because 
+                    the electric generator/motor combination serves only as a power 
+                    transmission system. 
+                </p>   
+            </div>
+                    
+            <div>
+                <img src="./resource/locomotiv_d.jpg" height="300px" width="255px">
+                <p>
+                    A diesel locomotive is a type of railway locomotive in which the prime 
+                    mover is a diesel engine. Several types of diesel locomotive have been 
+                    developed, differing mainly in the means by which mechanical
+                    power is conveyed to the driving wheels.
+                </p>
+                <p>
+                    Early internal combusition locomotives and railcars used kerosene and gasoline as their 
+                    fuel. Dr. Rudolf Diesel patented his first compression ignition engine[1] in 1898, and 
+                    steady improvements in the design of diesel engines reduced their physical size and 
+                    improved their power-to-weight ratio to a point where one could be mounted in a locomotive.
+                </p>
+            </div>
+
+            <div>
+                <img src="./resource/locomotiv_s.JPG" height="300px"  width="255px">
+                <p>
+                    A steam locomotive is a type of railway locomotive that produces its pulling power through a steam 
+                    engine. These locomotives are fueled by burning combustible material – usually coal, wood, or oil – 
+                    to produce steam in a boiler. The steam moves reciprocating pistons which are mechanically connected 
+                    to the locomotive's main wheels (drivers). Both fuel and water supplies are carried with the locomotive, 
+                    either on the locomotive itself or in wagons (tenders) pulled behind. 
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
